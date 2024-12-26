@@ -5,10 +5,13 @@
 }
 
 .selected-works-container {
+  max-width: 1440px;
+}
+
+.selected-works {
   display: flex;
   flex-wrap: wrap;
-  gap: 110px;
-  max-width: 1440px;
+  gap: 25px;
 }
 
 .selected-work__title {
@@ -48,4 +51,13 @@
 }
 .content-controls__button:hover {
   background-color: #5b189b;
+}
+
+
+.selected-work__inner-weight-title {
+  font-weight: 800;
+}
+
+.selected-work__inner-title {
+  margin-bottom: 20px;
 }
