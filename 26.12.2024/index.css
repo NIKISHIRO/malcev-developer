@@ -1,0 +1,36 @@
+.main {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.selected-works-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 1000px;
+}
+
+.selected-work__title {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.selected-work {
+  display: flex;
+}
+
+.selected-work__content-image {
+  margin-bottom: 16px;
+}
+
+.selected-work__content-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-controls__text {
+  text-transform: uppercase;
+  font-weight: 600;
+}
